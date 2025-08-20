@@ -10,16 +10,43 @@ What is a function? Well it's something that takes in an input, and gives back a
 
 <Tabs groupId="syntax" queryString>
   <TabItem value="symbolic" label="Symbolic" default>
-    Symbolic expression
+    $$
+    \begin{aligned}
+    f:\,&\mathbb{R} \rightarrow \mathbb{R} \\
+    &x\mapsto 2x
+    \end{aligned}
+    $$
   </TabItem>
   <TabItem value="java" label="Java">
-    Java code
+
+    ```java
+    class Multiply {
+      public static int doubleInt(int input) {
+        return input * 2;
+      }
+    }
+    ```
+    
   </TabItem>
   <TabItem value="javascript" label="JavaScript">
-    JavaScript code
+    
+    ```javascript
+    function double(input) {
+      return input * 2;
+    }
+    ```
+
   </TabItem>
   <TabItem value="python" label="Python">
-    Python code
+    
+    ```python
+    def double(input):
+      return input * 2
+    ```
+
   </TabItem>
 </Tabs>
 
+These functions all do the *same* thing: take in a number, double it, and spit out the doubled result.
+
+As you can see by switching between the tabs, some examples are more strict at ensuring *only* numbers can be passed as their input, but they all share the same core logic.
