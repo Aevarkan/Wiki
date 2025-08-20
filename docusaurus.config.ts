@@ -96,18 +96,14 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            // {
-            //   label: 'Stack Overflow',
-            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            // },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/cWJ7SqbaQK',
+              href: 'https://discordapp.com/invite/M25z6MmKXh',
             },
-            // {
-            //   label: 'X',
-            //   href: 'https://x.com/docusaurus',
-            // },
+            {
+              label: 'Patreon',
+              href: 'https://www.patreon.com/Aevarkan',
+            }
           ],
         },
         {
