@@ -47,7 +47,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Aevarkan/Tutorials/edit/source',
+            'https://github.com/Aevarkan/Tutorials/edit/main',
         },
         blog: false,
         theme: {
