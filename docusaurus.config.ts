@@ -81,9 +81,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'programmingSidebar',
           position: 'left',
           label: 'Programming',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'physicsSidebar',
+          position: 'left',
+          label: 'Physics',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -100,9 +106,13 @@ const config: Config = {
           title: 'Categories',
           items: [
             {
-              label: 'Tutorial',
-              to: '/intro',
+              label: 'Programming',
+              to: '/programming/intro',
             },
+            {
+              label: 'Physics',
+              to: '/physics/intro',
+            }
           ],
         },
         {
