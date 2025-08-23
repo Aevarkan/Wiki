@@ -52,7 +52,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Aevarkan/Tutorials/edit/main',
+            'https://github.com/Aevarkan/Wiki/edit/main',
         },
         blog: false,
         theme: {
@@ -93,7 +93,7 @@ const config: Config = {
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Aevarkan/Tutorials',
+          href: 'https://github.com/Aevarkan/Wiki',
           label: 'GitHub',
           position: 'right',
         },
@@ -137,7 +137,7 @@ const config: Config = {
             // },
             {
               label: 'GitHub',
-              href: 'https://github.com/Aevarkan/Tutorials',
+              href: 'https://github.com/Aevarkan/Wiki',
             },
           ],
         },
