@@ -1,0 +1,87 @@
+---
+sidebar_position: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Function
+## Function Definition
+A function is something that takes in an input, and gives back an output. That seems pretty vague, so I'll provide an example.
+
+<Tabs groupId="syntax" queryString>
+  <TabItem value="symbolic" label="Symbolic" default>
+    $$
+    \begin{aligned}
+    f:\,&\mathbb{R} \rightarrow \mathbb{R} \\
+    &x\mapsto 2x
+    \end{aligned}
+    $$
+  </TabItem>
+  <TabItem value="java" label="Java">
+
+    ```java
+    class Multiply {
+      public static int doubleInt(int input) {
+        return input * 2;
+      }
+    }
+    ```
+    
+  </TabItem>
+  <TabItem value="javascript" label="JavaScript">
+    
+    ```javascript
+    function double(input) {
+      return input * 2;
+    }
+    ```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+    
+    ```python
+    def double(input):
+      return input * 2
+    ```
+
+  </TabItem>
+</Tabs>
+
+These functions all do the *same* thing: take in a number, double it, and spit out the doubled result.
+
+As you can see by switching between the tabs, some examples are more strict at ensuring *only* numbers can be passed as their input, but they all share the same core logic.
+
+## Function Call
+We've defined what a function *is*, but what's more important is what a function *does*. A function call is the term prescribed to actually using a function. A good way to remember: imagine you're *calling* the function over to do something with a specific value.
+
+<Tabs groupId="syntax" queryString>
+  <TabItem value="symbolic" label="Symbolic" default>
+    $$
+    f(5) = 10
+    $$
+  </TabItem>
+  <TabItem value="java" label="Java">
+
+    ```java
+    import Multiply;
+
+    int result = Multiply.doubleInt(5);
+    ```
+    
+  </TabItem>
+  <TabItem value="javascript" label="JavaScript">
+    
+    ```javascript
+    const result = double(5);
+    ```
+
+  </TabItem>
+  <TabItem value="python" label="Python">
+    
+    ```python
+    result = double(5)
+    ```
+
+  </TabItem>
+</Tabs>

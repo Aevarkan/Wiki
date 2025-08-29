@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Main Page",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Aevarkan Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Programming": {
+    "message": "Programming",
+    "description": "Navbar item with label Programming"
+  },
+  "item.label.Physics": {
+    "message": "Physics",
+    "description": "Navbar item with label Physics"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
