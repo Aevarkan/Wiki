@@ -28,3 +28,22 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.video_wrapper {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--ifm-color-primary-dark);
+  border-radius: 1rem;
+}
+
+.video_player {
+  position: absolute;
+  inset: 0;
+  border: 2px solid var(--ifm-color-primary);
+  border-radius: 1rem;
+  object-fit: contain;
+}
