@@ -1,0 +1,110 @@
+---
+title: Glossary
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Glossary
+This page will list all terms introduced in the other sections. Concepts that can't be explained in a few lines will instead be links.
+
+## Maths
+### Associativity
+For an operation to be associative, it means that you can change the order you do each operation around while keeping the same answer.
+
+> Simple addition is associative. Adding $a$ and $b$ together *before* adding the sum to $c$ results in the same answer as adding $b$ and $c$ together and *then* adding that sum to $a$.
+> 
+> <Tabs groupId="syntax">
+>   <TabItem value="example" label="Example" default>
+>     $$
+>     \begin{aligned}
+>     (4 + 2) + 5= 6 + 5 &= 11 \\ &= 4 + 7 = 4 + (2 + 5)
+>     \end{aligned}
+>     $$
+>   </TabItem>
+>   <TabItem value="generic" label="General Case">
+>     $$
+>     (a+b)+c = a + b + c = a + (b + c)
+>     $$
+>   </TabItem>
+> </Tabs>
+
+### Commutativity
+For an operation to be commutative, it means that the order of the elements does not matter.
+
+> Simple addition is commutative. Adding $a$ to $b$ is the same as adding $b$ to $a$.
+> 
+> <Tabs groupId="syntax">
+>   <TabItem value="example" label="Example" default>
+>     $$
+>     6+4 = 10 = 4 + 6
+>     $$
+>   </TabItem>
+>   <TabItem value="generic" label="General Case">
+>     $$
+>     a + b = b + a
+>     $$
+>   </TabItem>
+> </Tabs>
+
+> Simple subtraction is **not** commutative: subracting $a$ from $b$ is not the same as subracting $b$ from $a$.
+> 
+> <Tabs groupId="syntax">
+>   <TabItem value="example" label="Example" default>
+>     $$
+>     \begin{gather*}
+>     \begin{aligned}
+>     6-4 = 6 + (-4) &= 2 \\
+>     4-6 = (-6) + 4 &= -2
+>     \end{aligned} \\\\
+>     -2 \neq 2
+>     \end{gather*}
+>     $$
+>   </TabItem>
+>   <TabItem value="generic" label="General Case">
+>     $$
+>     \begin{gather*}
+>     \begin{aligned}
+>     a-b &= a + (-b) \\
+>     b-a = (-a) + b &= -a + b
+>     \end{aligned} \\\\
+>     a + (-b) \neq -a + b
+>     \end{gather*}
+>     $$
+>   </TabItem>
+> </Tabs>
+
+### Distributivity
+Distributivity describes how one operation acts over **another** operation. There can be both left and right distributivity, and the following must be true for them to hold:
+
+<Tabs groupId="direction">
+  <TabItem value="left" label="Left" default>
+    $$
+    a\star (b\oplus c) = (a\star b) \oplus (a\star c)
+    $$
+  </TabItem>
+  <TabItem value="right" label="Right">
+    $$
+    (b\oplus c) \star a = (b\star a) \oplus (c\star a)
+    $$
+  </TabItem>
+</Tabs>
+
+### Identity
+An identity element is an element that does nothing when operated on with another element. An operation can have both left and right Identities.
+
+### Inverse
+An inverse element is an element, that when operated on with another element, will result in the identity element of that operation. There can be both left and right inverses.
+
+<Tabs groupId="direction">
+  <TabItem value="left" label="Left" default>
+    $$
+    e^{-1}_l \star a = e^{id}_l
+    $$
+  </TabItem>
+  <TabItem value="right" label="Right">
+    $$
+    a \star e^{-1}_r = e^{id}_r
+    $$
+  </TabItem>
+</Tabs>

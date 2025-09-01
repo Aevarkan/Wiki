@@ -1,0 +1,114 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Field
+
+:::warning
+
+A field in mathematics does not have the same definition as a field in physics!
+
+:::
+
+## You Learnt This!
+In primary school, you would've been taught the four basic operations: addition, subtraction, multiplication, and division $(+, -, \times, \div)$.
+
+Subracting a number is the same as adding the negative of that number.
+
+<Tabs groupId="syntax">
+  <TabItem value="example" label="Example" default>
+    $$
+    10-5=10 + (-5) = 5
+    $$
+  </TabItem>
+  <TabItem value="generic" label="General Case">
+    $$
+    a-b= a + (-b)
+    $$
+  </TabItem>
+</Tabs>
+
+Division is the same as multiplication by the reciprocal.
+
+<Tabs groupId="syntax">
+  <TabItem value="example" label="Example" default>
+    $$
+    25 \div 5 = 25 \times \left( \frac{1}{5} \right) = \frac{25}{5} = 5
+    $$
+  </TabItem>
+  <TabItem value="generic" label="General Case">
+    $$
+    a \div b = a \times \left( \frac{1}{b} \right) = \frac{a}{b}
+    $$
+  </TabItem>
+</Tabs>
+
+Hence, we can say that there are only two elementary operations $(+, \times)$.
+
+:::tip
+
+You will want to get into the habit of using a dot for multiplication instead of a cross, meaning that you should write $(+,\, \cdot \;)$ instead of $(+, \times)$. This is to avoid confusion with the cross product!
+
+:::
+
+## The Formal Definition
+With that out of the way, let's formally define what a field is.
+
+:::note
+
+You may find that the formal definition of a field can differ slightly between authors; however, they all have the same meaning.
+
+:::
+
+> **A field $\mathbb{F}$ is a set with two operations:**
+> - Addition
+> $$
+> +:\mathbb{F}\times\mathbb{F}\rightarrow\mathbb{F}
+> $$
+> - Multiplication
+> $$
+> \cdot :\mathbb{F}\times\mathbb{F}\rightarrow\mathbb{F}
+> $$
+> 
+> **These operations must satisfy the following axioms:**
+> - Associativity (Additive)
+> $$
+> \forall a, b, c \in \mathbb{F},\quad a + (b + c) = (a + b) + c
+> $$
+> - Associativity (Multiplicative)
+> $$
+> \forall a, b, c \in \mathbb{F},\quad a \cdot (b \cdot c) = (a \cdot b) \cdot c
+> $$
+> - Commutativity (Additive)
+> $$
+> \forall a, b \in \mathbb{F},\quad a + b = b + a
+> $$
+> - Commutativity (Multiplicative)
+> $$
+> \forall a, b \in \mathbb{F},\quad a \cdot b = b \cdot a
+> $$
+> - Additive Identity
+> $$
+> \forall a \in \mathbb{F}, \exists \, e_a:\quad a + e_a = e_a + a = a
+> $$
+> - Multiplicative Identity
+> $$
+> \forall a \in \mathbb{F}, \exists \, e_m:\quad a \cdot e_m = e_m \cdot a = a
+> $$
+> - Additive Inverse
+> $$
+> \forall a \in \mathbb{F}, \exists (-a):\quad a + (-a) = e_a
+> $$
+> - Multiplicative Inverse
+> $$
+> \forall a \in \mathbb{F}, \exists \, a^{-1}\quad a \cdot a^{-1} = e_m
+> $$
+> - Distributivity of Multiplication over Addition
+> $$
+> \forall a, b, c \in \mathbb{F},\quad a \cdot (b + c) = (a \cdot b) + (a \cdot c)
+> $$
+> - Distinct Additive and Multiplicative Identities
+> $$
+> e_m \neq e_a
+> $$
+
+The standard real number line, as you know it, is a field: $\mathbb{F_{\mathbb{R}}}=(\mathbb{R}, +, \cdot)$.
