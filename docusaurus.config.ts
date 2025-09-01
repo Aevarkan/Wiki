@@ -145,7 +145,7 @@ const config: Config = {
           title: "Licence",
           items: [
             {
-              html: "<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'><img src='https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png'></a>"
+              html: "<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'><img src='/img/licence-badge-88x31.png'></a>"
             }
           ]
         }
