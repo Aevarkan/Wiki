@@ -1,5 +1,5 @@
 # Time
-As you may know, in our world, [*time is relative*](/physics/relativity/). For a computer, time is **nonexistent**.
+As you may know, in our world, [*time is relative*](/theory/relativity/). For a computer, time is **nonexistent**.
 
 :::info
 

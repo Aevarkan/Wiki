@@ -81,15 +81,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'programmingSidebar',
+          sidebarId: 'compsciSidebar',
           position: 'left',
-          label: 'Programming',
+          label: 'Computer Science',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'physicsSidebar',
+          sidebarId: 'theorySidebar',
           position: 'left',
-          label: 'Physics',
+          label: 'Theory',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -106,12 +106,12 @@ const config: Config = {
           title: 'Categories',
           items: [
             {
-              label: 'Programming',
-              to: '/programming/intro',
+              label: 'Computer Science',
+              to: '/dev/intro',
             },
             {
-              label: 'Physics',
-              to: '/physics/intro',
+              label: 'Background',
+              to: '/theory/intro',
             }
           ],
         },
