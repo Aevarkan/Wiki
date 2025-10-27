@@ -83,14 +83,14 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'compsciSidebar',
           position: 'left',
-          label: 'Computer Science',
+          label: 'Programming',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'theorySidebar',
-          position: 'left',
-          label: 'Theory',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'theorySidebar',
+        //   position: 'left',
+        //   label: 'Theory',
+        // },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Aevarkan/Wiki',
@@ -106,13 +106,13 @@ const config: Config = {
           title: 'Categories',
           items: [
             {
-              label: 'Computer Science',
+              label: 'Programming',
               to: '/dev/intro',
             },
-            {
-              label: 'Background',
-              to: '/theory/intro',
-            }
+            // {
+            //   label: 'Theory',
+            //   to: '/theory/intro',
+            // }
           ],
         },
         {

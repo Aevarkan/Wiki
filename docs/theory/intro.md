@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Physics Main Page
+# Theory Section
 
-Physics section main page
+Don't look here! It's not finished yet.
