@@ -215,7 +215,7 @@ If you get something like the above, then you've installed Node.js and npm succe
 
 ### Configuring Node
 
-This next section may feel like we're doing steps backwards. As we're using npm just to *install* packages, and not *publishing* them, this is expected.
+This next section may feel like we're doing steps backwards. As we're using npm for *installing* packages, not *publishing* packages, this is expected.
 
 ---
 
@@ -313,7 +313,7 @@ You should see a directory named `node_modules` appear. Inside, you will find th
 If you've copied [my configuration](#final-node-configuration), then you might want to run
 
 ```sh
-npm update
+npm update --save
 ```
 
 As it's unlikely the versions shown in this tutorial are up to date.
@@ -322,6 +322,10 @@ As it's unlikely the versions shown in this tutorial are up to date.
     <summary>A Small Caveat</summary>
 
     Running `npm update` will not incremement major versions. For example, `typescript` version `5.8.2` will not update to `6.0.0`, but will update to `5.9.0`.
+
+    That `--save` flag makes `npm update` also modify `package.json`. Without it, it only modifies packages in `node_modules`, and `package-lock.json`.
+
+    ---
 
     You can install a specific version by adding `@x.y.z` at the end of the command. `x`, `y`, and `z` being placeholders for version numbers.
 
