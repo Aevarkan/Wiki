@@ -78,6 +78,9 @@ There will no longer be an error for trying to import from `command-wrapper`, as
 <details>
     <summary>All The Way Down</summary>
 
+    As you might've guessed from the above example, at some point, the module you are importing will have to either import from a built-in module, or is just a standalone function.
+    
+    Bundling puts all the modules you import into your final code file(s). It does not let you add functionality that the built-in modules do not already allow.
 
 </details>
 
